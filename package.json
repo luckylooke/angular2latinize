@@ -1,0 +1,38 @@
+{
+  "name": "angular2latinize",
+  "version": "1.0.0",
+  "description": "Angular 2 simple latinize service for removing accents from latin characters, also for ionic 2 applications",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckylooke/angular2latinize.git"
+  },
+  "keywords": [
+    "latinize",
+    "latinise",
+    "accents",
+    "diacritics",
+    "removal",
+    "remove",
+    "convert",
+    "convertor",
+    "ionic2",
+    "ionic.io",
+    "ionic",
+    "angular",
+    "angular.io",
+    "ng2"
+  ],
+  "author": "luckylooke@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luckylooke/angular2latinize/issues"
+  },
+  "homepage": "https://github.com/luckylooke/angular2latinize#readme",
+  "dependencies": {
+    "@angular/core": "^2.4.9"
+  }
+}
