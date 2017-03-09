@@ -209,7 +209,7 @@ module.exports = module.exports.toString();
 /***/ 612:
 /***/ (function(module, exports) {
 
-module.exports = "<div style=\"justify-content: space-around; display: flex; align-items: center; height: 100%\">\n\n    <div style=\"max-width: 300px;\">\n        <md-toolbar color=\"primary\">\n            Latinize demo\n        </md-toolbar>\n\n        <md-card>\n\n            <md-card-subtitle>\n                Try changing the input value.\n            </md-card-subtitle>\n\n            <md-input-container>\n                <input mdInput placeholder=\"input\" type=\"text\" (ngModelChange)=\"inputChanged()\" [(ngModel)]=\"input\"\n                       required>\n            </md-input-container>\n\n            <h3 style=\"color: rgba(0,0,0,.38); font-size: smaller; font-weight: normal;\">Output</h3>\n            {{ output }}\n\n        </md-card>\n    </div>\n\n</div>\n"
+module.exports = "<div style=\"justify-content: space-around; display: flex; align-items: center; height: 100%\">\n\n    <div style=\"max-width: 300px;\">\n        <md-toolbar color=\"primary\">\n            Latinize demo\n        </md-toolbar>\n\n        <md-card>\n\n            <md-card-subtitle>\n                Try changing the input value.\n            </md-card-subtitle>\n\n            <md-input-container>\n                <input mdInput placeholder=\"input\" type=\"text\" (keyup)=\"inputChanged()\" [(ngModel)]=\"input\"\n                       required>\n            </md-input-container>\n\n            <h3 style=\"color: rgba(0,0,0,.38); font-size: smaller; font-weight: normal;\">Output</h3>\n            {{ output }}\n\n        </md-card>\n    </div>\n\n</div>\n"
 
 /***/ }),
 

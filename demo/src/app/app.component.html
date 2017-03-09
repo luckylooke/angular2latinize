@@ -12,7 +12,7 @@
             </md-card-subtitle>
 
             <md-input-container>
-                <input mdInput placeholder="input" type="text" (ngModelChange)="inputChanged()" [(ngModel)]="input"
+                <input mdInput placeholder="input" type="text" (keyup)="inputChanged()" [(ngModel)]="input"
                        required>
             </md-input-container>
 
