@@ -1,0 +1,25 @@
+<div layout="row" layout-align="center center" style="max-width: 300px">
+
+    <div>
+        <md-toolbar color="primary">
+            Latinize demo
+        </md-toolbar>
+
+        <md-card>
+
+            <md-card-subtitle>
+                Try changing the input value.
+            </md-card-subtitle>
+
+            <md-input-container>
+                <input mdInput placeholder="input" type="text" (ngModelChange)="inputChanged()" [(ngModel)]="input"
+                       required>
+            </md-input-container>
+
+            <h3 style="color: rgba(0,0,0,.38); font-size: smaller; font-weight: normal;">Output</h3>
+            {{ output }}
+
+        </md-card>
+    </div>
+
+</div>

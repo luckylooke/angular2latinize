@@ -15,7 +15,7 @@ import { Latinize }	from 'angular2latinize';
 export class myClass {
 
 	constructor (
-		public latinize: Latinize
+		latinize: Latinize
 	) {
 		console.log('latinize "crème brûlée" -> ', this.latinize.convert('crème brûlée')); // results 'creme brulee'
 	}
