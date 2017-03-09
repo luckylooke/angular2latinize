@@ -1,6 +1,10 @@
 # angular2latinize
 Angular 2 simple latinize service for removing accents from latin characters, also for ionic 2 applications.
 
+## DEMO
+
+Hosted by gh-pages [github.io/angular2latinize](https://luckylooke.github.io/angular2latinize/demo/dist/index.html)
+
 ## installation
 ```
 npm install angular2latinize
